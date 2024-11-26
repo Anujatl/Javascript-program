@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+      function gcd(a,b){
+        while(b !=0){
+            var temp = b
+            b = a % b
+            a = temp
+        }
+        return a
+      }
+      var a = parseInt(prompt('Enter a first positive integer: '));
+      var b = parseInt(prompt('Enter a second positive integer: '));
+     console.log(gcd(a,b))
+    </script>
+</body>
+</html>

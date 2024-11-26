@@ -1,0 +1,40 @@
+<!-- <!DOCTYPE html>
+<html>
+<body>
+    <script>
+       var num1 = parseInt(prompt('Enter the first number'));
+       var num2 = parseInt(prompt('Enter the second number'));
+
+       document.write(`sum of two number is ${num1 + num2}`);
+
+    </script>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+        var start = parseInt(prompt("Enter the start of the range"));
+        var end = parseInt(prompt("Enter the end of the range"));
+
+        for (var num = start; num <= end; num++) {
+            var count = 0;
+
+            for (var i = 1; i <= num; i++) {
+                if (num % i === 0) {
+                    count = count + 1;
+                }
+            }
+
+            if (count === 2) {
+                console.log(num + " is a prime number");
+            } else {
+                console.log(num + " is not a prime number");
+            }
+        }
+    </script>
+</body>
+</html>

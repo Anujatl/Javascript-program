@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+  <button onclick="sum()">+</button>
+  <button onclick="sub()">-</button>
+  <button onclick="mul()">*</button>
+  <button onclick="div()">/</button>
+
+<script>
+  var x = prompt("Enter the first number");
+  var y = prompt("Enter the second number");
+  var num1 = parseInt(x);
+  var num2 = parseInt(y);
+  function sum(){
+    var a = num1 + num2;
+    document.write(a);
+  }
+  function sub(){
+    var s = num1 - num2;
+    document.write(s);
+  }
+  function mul(){
+    var m = num1 * num2;
+    document.write(m);
+  }
+  function div(){
+    var d = num1 / num2;
+    document.write(d);
+  }
+
+</script>
+
+</body>
+</html>  
+

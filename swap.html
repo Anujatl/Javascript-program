@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <p id = "demo"></p>
+    <p id = "dem"></p>
+    <script>
+        var a = parseInt(prompt('Enter the first number'));
+        var b = parseInt(prompt('Enter the second number'));
+        a = a + b;
+        b = a - b;
+        a = a - b;
+      document.getElementById('demo').innerHTML= (`the value of a after swapping ${a}`);
+      document.getElementById('dem').innerHTML= (`the value of b after swapping ${b}`);
+    </script>
+</body>
+</html>
